@@ -1,0 +1,13 @@
+@media(max-width:500px)
+{
+
+    .icons span{display: block;}
+    .icons a {display: none;}
+    .header{width: 100%;}
+    .subhead1{width: 10%;}
+    .navbar{display: none;}
+    .line{display: none;}
+    .headerimg{width: 100%;}
+    /* .img1{width: 80%;} */
+    .img2{display: none;}
+}
