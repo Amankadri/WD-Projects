@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-
+/*   Header Start   */
 .header
 {
     height: 800px;
@@ -19,10 +19,11 @@
 
 .subhead1
 {
-    height: 100px ;
+    height: auto ;
     /* background-color: green; */
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    /* justify-content: center; */
 }
 
 .icons
@@ -59,10 +60,11 @@
 
 .search
 {
-    height: 100px;
+    height: auto;
     width: 33.3%;
     /* background: coral; */
     display: flex;
+    flex-wrap: wrap;
     font-size: 25px;
     color: white;   
     padding: 30px 0 0 200px;
@@ -98,7 +100,7 @@
 .navbar ul li
 {
     display: inline;
-    color: white;
+    color: gray;
     margin-right: 40px;
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
@@ -108,27 +110,79 @@
 .navbar a
 {
     text-decoration: none;
+    color: gray;
 }
 
-.navbar li .effect 
+.menu
+{
+    position: relative;
+    /* color: gray; */
+}
+
+.menu:hover
+{
+    color: white;
+}
+
+.navbar .submenu
+{
+    position: absolute;
+    top: 160%;
+    left: -10%;
+    background-color: black;
+    color: gray;
+    list-style-type: none;
+    width: 140px;
+    padding-left: 15px;
+    line-height: 30px;
+    /* display: none; */
+   visibility: hidden;
+    z-index: 1;
+    transition: .5s;
+}
+
+.menu:hover .submenu
+{
+    visibility: visible;
+    /* display: block; */
+    
+}
+
+.submenu a
+{
+    font-size: 16px;
+    color: gray;
+    
+}
+
+a:hover
+{
+    color: white;
+}
+
+
+
+/* .navbar  .effect 
 {
     display: inline;
     color: gray;
 }
 
-.navbar span
+.effect:hover 
+{
+    color: white;
+} */
+
+.navbar  .fa-angle-down
 {
   color: gray;
   font-size: 12px;
   transform: rotate(0deg);
+  transition: .4s;
 }
 
-.effect:hover li
-{
-    color: white;
-}
 
-span:hover
+.menu:hover .fa-angle-down
 {
     transform: rotate(180deg);
 }
@@ -136,6 +190,7 @@ span:hover
 .headerimg
 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
    
     margin-top: 50px;
@@ -154,7 +209,8 @@ span:hover
 .img1 .text
 {
   width: 50%;  
-  margin: 80px 80px;
+  margin: 250px 0px 0px 50px;
+  /* line-height: 40px; */
   position: absolute;
   top: 0;
   left: 0;
@@ -167,12 +223,15 @@ span:hover
     color: white;
     padding: 3px 15px;
     border: none;
+    
 
 }
 
 .img1 .text h1
 {
     color: white;
+    text-transform: capitalize;
+    margin-top: 20px;
 }
 
 .text h1:hover
@@ -184,7 +243,8 @@ span:hover
 {
     display: flex;
     color: gray;
-    padding: 0px ;
+   
+    margin-top: 20px;
 }
 
 .profile img
@@ -199,7 +259,6 @@ span:hover
     font-size: 20px;
     margin:  10px 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
 }
 
 h4:hover
@@ -232,12 +291,13 @@ h4:hover
     height: 275px;
     width: 400px;
     position: relative;
+    z-index: 0;
 }
 
 .img2 .text-1
 {
   width: 70%;  
-  /* margin: 80px 80px; */
+  margin: 150px 20px;
   position: absolute;
   top: 0;
   left: 0;
@@ -253,9 +313,12 @@ h4:hover
 
 }
 
-.img2 .text-1 h1
+.img2 .text-1 h5
 {
+    font-size: 20px;
     color: white;
+    text-transform: capitalize;
+    margin-top: 15px;
 }
 
 .text-1 h1:hover
@@ -263,18 +326,19 @@ h4:hover
     text-decoration: underline;
 }
 
-.profile
+.profile1
 {
     display: flex;
+
     color: gray;
     padding: 0px ;
 }
 
-.profile .text1
+.profile1 .text2
 {
     display: flex;
-    font-size: 20px;
-    margin:  10px 20px;
+    font-size: 16px;
+    margin:  10px 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
@@ -293,12 +357,13 @@ h4:hover
     opacity: 0;
     transition: .5s;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -150px;
+    left: -7%;
+    z-index: 1;
     
 }
 
-.effect-img1:hover
+.effect-img1:hover  
 {
    opacity: 1;
 }
@@ -308,20 +373,21 @@ h4:hover
     height: 275px;
     width: 400px;
     position: relative;
-    margin-top: -4px;
+    margin-top: -5px;
+    
 }
 
-.img3 .text-1
+.img3 .text-2
 {
   width: 70%;  
-  /* margin: 80px 80px; */
+  margin: 150px 20px;
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 2;
+ 
 }
 
-.img3 .text-1  button
+.img3 .text-2  button
 {
     background-color: rgb(101, 156, 18);
     color: white;
@@ -330,9 +396,12 @@ h4:hover
 
 }
 
-.img3 .text h1
+.img3 .text-2 h5
 {
+    font-size: 20px;
     color: white;
+    text-transform: capitalize;
+    margin-top: 15px;
 }
 
 .text-2 h1:hover
@@ -340,18 +409,18 @@ h4:hover
     text-decoration: underline;
 }
 
-.profile
+.profile2
 {
     display: flex;
     color: gray;
     padding: 0px ;
 }
 
-.profile .text1
+.profile2 .text3
 {
     display: flex;
-    font-size: 20px;
-    margin:  10px 20px;
+    font-size: 16px;
+    margin:  10px 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
@@ -369,8 +438,9 @@ h4:hover
     opacity: 0;
     transition: .5s;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -125%;
+    left: -7%;
+   
     
 }
 
@@ -379,7 +449,96 @@ h4:hover
    opacity: 1;
 }
 
+  /*  Header End  */
 
+ /* Content Start */
+
+.main
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+    margin: 10px;
+    justify-content: center;
+    
+}
+.card
+{
+    height: 600px;
+    width: 250px;
+    background-color: white ;
+}
+
+.card-img
+{
+    object-fit: contain;
+    position: relative;
+}
+
+.card-img .effect
+{
+    height: 288px;
+    width: 250px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 288px;
+    background: rgba(0, 0, 0, 0.79);
+    opacity: 0;
+    transition: .5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card-img:hover .effect
+{
+    opacity: 1;
+}
+
+.card .card-info
+{
+    width: 70%;
+    margin: 10px 40px;
+}
+
+.card-info h5
+{
+    color: gray;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: lighter;
+}
+
+.card-info h3
+{
+   font-size: 23px;
+   text-transform: capitalize;
+   font-weight: light;
+   margin-top: 8px;
+}
+
+.card-info p
+{
+    color: gray;
+    width: 110%;
+    margin-top: 10px ;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+.card-info span a
+{
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+span:hover a
+{
+    color: black;
+}
 
 
 

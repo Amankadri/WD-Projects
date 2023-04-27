@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="CSS/media-query.css">
 </head>
 <body>
+
+    <!-- Header start -->
     <div class="header">
         <div class="subhead1">
             <div class="icons">
@@ -26,8 +28,11 @@
                 <h1>Philosopy.</h1>
             </div>
             <div class="search">
+               <div class="s">
                 <p>search</p>
                 <i class="fa-solid fa-magnifying-glass"></i>
+               </div>
+                <span> <i class="fa-solid fa-magnifying-glass"></i></span>
             </div>
         </div>
 
@@ -36,27 +41,49 @@
 
         <div class="navbar">
             <ul>
-                <a href=""><li>Home</li></a>
-                <a href=""><li>
-                    <div class="effect"></div>
-                    Categories
-                    <span><i class="fa-solid fa-angle-down"></i></span>
-                    
+                <a href=""><li class="menu">Home</li></a>
+
+                <a href="">
+                    <li class="menu">
+                        <!-- <div class="effect"></div> -->
+                        Categories
+
+                        <ul class="submenu">
+                            <li> <a href=""> Lifestyle </a></li>
+                            <li> <a href=""> Health </a></li>
+                            <li> <a href=""> Family </a></li>
+                            <li> <a href=""> Management </a></li>
+                            <li> <a href=""> Travel </a> </li>
+                            <li> <a href=""> Work </a></li>
+                        </ul>
+
+                        <span><i class="fa-solid fa-angle-down"></i></span>
+                        
                     
                 </li></a>
-                <a href=""><li>
+                <a href=""><li class="menu">
                     Blog
+
+                    <ul class="submenu">
+                        <li> <a href=""> Video Post </a></li>
+                        <li> <a href="">  Audio Post  </a></li>
+                        <li> <a href="">  Work Post  </a></li>
+                        <li> <a href="">  Gallery Post  </a></li>
+                        
+                    </ul>
+
+
                     <span><i class="fa-solid fa-angle-down"></i></span>
-                    <div class="effect"></div>
+                    <!-- <div class="effect"></div> -->
                 </li></a>
-                <a href=""><li>Styles
-                    <div class="effect"></div>
+                <a href=""><li class="menu">Styles
+                    <!-- <div class="effect"></div> -->
                 </li></a>
-                <a href=""><li>About
-                    <div class="effect"></div>
+                <a href=""><li class="menu">About
+                    <!-- <div class="effect"></div> -->
                 </li></a>
-                <a href=""><li>Contact
-                    <div class="effect"></div>
+                <a href=""><li class="menu">Contact
+                    <!-- <div class="effect"></div> -->
                 </li></a>
            
             </ul>
@@ -72,8 +99,8 @@
                 <div class="profile">
                     <img src="Images/user-03.jpg.webp" alt="">
                     <div class="text1">
-                    <h4>John Doe </h4> 
-                    <p>.</p>
+                    <h4>John Doe </h4>&#160
+                    <p>.&nbsp</p> 
                     <p>December 29, 2017</p></div>
                 </div>
             </div>
@@ -88,11 +115,11 @@
 
                     <div class="text-1">
                         <a href=""><button>Management</button></a>
-                        <h1>What Your Music preference says about you and your personality</h1>
-                        <div class="profile">
-                            <div class="text">
-                            <h4>John Doe </h4> 
-                            <p>.</p>
+                        <h5>The pomodoro techniques really works</h5>
+                        <div class="profile1">
+                            <div class="text2">
+                            <h4>John Doe &#160</h4> 
+                            <p>.</p>&#160
                             <p>December 29, 2017</p></div>
                         </div>
 
@@ -103,14 +130,14 @@
                    
                     <img src="Images/header-img3.jpg" alt="" height="100%" width="100%" >
 
-                    <div class="text-1">
-                        <a href=""><button>Management</button></a>
-                        <h1>What Your Music preference says about you and your personality</h1>
-                        <div class="profile">
+                    <div class="text-2">
+                        <a href=""><button>Lifestyle</button></a>
+                        <h5>throwback to the good old days</h5>
+                        <div class="profile2">
             
-                            <div class="text1">
-                            <h4>John Doe </h4> 
-                            <p>.</p>
+                            <div class="text3">
+                            <h4>John Doe </h4> &#160
+                            <p>.</p>&#160
                             <p>December 29, 2017</p></div>
                         </div>
                     <div class="effect-img2"></div>
@@ -119,6 +146,80 @@
            
         </div>
     </div>
-    <!-- Header End              -->
+    <!-- Header End -->
+
+    <!-- Content Start -->
+    <div class="main" >
+         <!-- Card-start -->
+        <div class="card">
+            <div class="card-img">
+                <img src="Images/card-img1" alt="" height="100%" width="100%">
+                <div class="effect">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+            
+            <div class="card-info">
+                <h5>December 15, 2017</h5>
+                <h3>just a standard format post</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ipsa reiciendis quos est blanditiis excepturi illum consequuntur a suscipit officiis optio voluptate, explicabo dolores minima..</p>
+                <span><a href="">Design, Photography</a></span>
+            </div>
+        </div>
+         <!-- Card-end -->
+
+          <!-- Card-start -->
+        <div class="card">
+            <div class="card-img">
+                <img src="Images/card-img1" alt="" height="100%" width="100%">
+                <div class="effect">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+            
+            <div class="card-info">
+                <h5>December 15, 2017</h5>
+                <h3>just a standard format post</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ipsa reiciendis quos est blanditiis excepturi illum consequuntur a suscipit officiis optio voluptate, explicabo dolores minima..</p>
+                <span><a href="">Design, Photography</a></span>
+            </div>
+        </div>
+         <!-- Card-end -->
+
+          <!-- Card-start -->
+        <div class="card">
+            <div class="card-img">
+                <img src="Images/card-img1" alt="" height="100%" width="100%">
+                <div class="effect">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+            
+            <div class="card-info">
+                <h5>December 15, 2017</h5>
+                <h3>just a standard format post</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ipsa reiciendis quos est blanditiis excepturi illum consequuntur a suscipit officiis optio voluptate, explicabo dolores minima..</p>
+                <span><a href="">Design, Photography</a></span>
+            </div>
+        </div>
+         <!-- Card-end -->
+
+          <!-- Card-start -->
+        <div class="card">
+            <div class="card-img">
+                <img src="Images/card-img1" alt="" height="100%" width="100%">
+                <div class="effect">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+            
+            <div class="card-info">
+                <h5>December 15, 2017</h5>
+                <h3>just a standard format post</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ipsa reiciendis quos est blanditiis excepturi illum consequuntur a suscipit officiis optio voluptate, explicabo dolores minima..</p>
+                <span><a href="">Design, Photography</a></span>
+            </div>
+        </div>
+         <!-- Card-end -->
+
+
+    </div>
+        
 </body>
 </html>
