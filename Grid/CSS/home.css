@@ -11,7 +11,7 @@
     background-attachment: fixed;   
     /* background-color: red; */
     background: url(/Images/header-img1.jpg);  
-    background-size: 100% 100%;
+    background-size: contain;
     background-repeat: no-repeat;
     animation: test 5s  linear infinite;
     
@@ -39,7 +39,15 @@
    padding-left: 40px;
    color: white;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
 
+}
+
+.logo span
+{
+  display: none;
+       
 }
 
 .heading1
@@ -149,7 +157,7 @@
 {
     /* height: 300px;
     background-color: navy; */
-    padding: 400px 180px;
+    padding: 300px 180px;
 }
 
 .header-content .text
@@ -199,7 +207,7 @@ input
     left: 0;
 }
 
-.effect1
+.y .effect1
 {
     height: 50px;
     width: 150px;
@@ -210,3 +218,145 @@ input
     left: 50%;
     transform: translate(-100%, -50%);
 }
+
+/*  Header end   */
+
+/* Content1 Start */
+
+.content1
+{
+    /* height: auto;
+    width: 100%; */
+    background-color: rgb(30, 38, 38);
+}
+
+.info
+{
+    height: 300px;
+
+}
+
+.cont-text
+{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px auto;
+    padding-top: 80px;
+}
+
+.cont-heading h1
+{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cont-para p
+{
+    color: gray ;
+    margin-bottom: 20px;
+}
+
+.contact
+{
+    color: goldenrod;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.contact p
+{
+    color: goldenrod;
+    font-size: 16px;
+    margin-left: -220px;
+    margin-top: 5px;
+}
+
+.card-grid
+{
+    height: auto;
+    background-color: crimson;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    
+}
+
+.card
+{
+    /* height: 500px;       */
+    width: 300px;
+    /* margin: 20px auto; */
+    background-color: yellow;
+    position: relative;
+}
+
+.card-info p
+{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.card-info img
+{
+    height: 30px;
+    width: 100px;
+    margin: -10px 100px;
+}
+
+.card .effect1
+{
+    height: 385px;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.73);
+    opacity: 0;
+    transition: 1s;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card .effect1 .info
+{
+    text-align: center;
+   margin-top: 100px;
+   margin-left: 25px;
+   width: 80%;
+}
+
+.card .effect1 h3
+{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 15px;
+}
+
+.card .effect1 .rate p
+{
+    color: goldenrod;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.card .effect1 p
+{
+    color: gray;
+}
+
+
+.card:hover .effect1
+{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+

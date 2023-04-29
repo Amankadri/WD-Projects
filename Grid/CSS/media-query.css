@@ -1,0 +1,16 @@
+@media (max-width:500px)
+{
+    .header
+    {
+        /* background-size:contain;  */
+    }
+    .submenu{grid-template-columns: 1fr 1fr ;}    
+    .heading1{display: none;}
+    .logo span{display: block; margin-left: 300px; } 
+    .submenu2{display: none; } 
+    .header-content{padding: 200px 20px;}
+    .header-content .text{width: 100%; }
+    .y{display: none; width: 10%;}
+
+    
+}
