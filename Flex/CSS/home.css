@@ -13,7 +13,7 @@
     background: black;
     /* background-repeat: no-repeat;   */
     /* background-size: 100% 100%; */
-    background-size: cover;
+    /* background-size: cover; */
        
 }
 
@@ -307,7 +307,7 @@ h4:hover
 .img2 .text-1
 {
   width: 70%;  
-  margin: 150px 20px;
+  padding: 150px 20px;
   position: absolute;
   top: 0;
   left: 0;
@@ -367,8 +367,8 @@ h4:hover
     opacity: 0;
     transition: .5s;
     position: absolute;
-    top: -150px;
-    left: -7%;
+    top: 0;
+    left: 0;
     z-index: 1;
     
 }
@@ -390,7 +390,7 @@ h4:hover
 .img3 .text-2
 {
   width: 70%;  
-  margin: 150px 20px;
+  padding: 150px 20px;
   position: absolute;
   top: 0;
   left: 0;
@@ -448,10 +448,9 @@ h4:hover
     opacity: 0;
     transition: .5s;
     position: absolute;
-    top: -125%;
-    left: -7%;
-   
-    
+    top: 0;
+    left: 0;
+     
 }
 
 .effect-img2:hover
@@ -463,24 +462,28 @@ h4:hover
 
  /* Content Start */
 
-.main
+.main-content
 {
-   height: 900px;
-   width: 100%;
-   background-color: red;
+   height: auto;
+   /* width: 100%;   */
+   /* background-color: red; */
+   background-color: whitesmoke;
 } 
 .content
 {
-    background-color: aqua;
+   
     display: flex;
     flex-wrap: wrap;
+    padding: 20px 180px;
    
 }
 .content .card
 {
-    height: 600px;
+    /* height: 600px;    */
     width: 250px;
     background-color: white ;
+    margin: 20px 20px;
+    box-shadow: 0px 0px 0.5px black;
 }
 
 .card-img
@@ -554,6 +557,720 @@ span:hover a
 {
     color: black;
 }
+  
+   /* Card 1 end */
+
+   /* Card 2 start */
+
+.content .card2
+{
+    height: 400px;
+    width: 250px;
+    background-color: white ;
+    margin: 20px 20px;
+    box-shadow: 0px 0px 0.5px black;
+}
+
+.card-img1 img
+{
+    height: 30px;
+    margin-top: 20px;
+    object-fit: contain;
+    position: relative;
+}
 
 
+.card2 .card-info1
+{
+    width: 70%;
+    margin: 20px 50px;
+    /* font-size: 18px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+.card-info1 h3
+{
+   font-size: 20px;
+   text-transform: capitalize;
+   font-weight: light;
+   margin-top: 8px;
+}
+
+.card-info1 p
+{
+    color: gray;
+    width: 110%;
+    margin-top: 10px ;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+  /* Card 2 end */
+
+   /* Card 3 start */
+.content .card3
+{
+    height: 600px;
+    width: 250px;
+    background-color: white ;
+    margin: 20px 20px;
+    box-shadow: 0px 0px 0.5px black;
+}
+   
+.card-img2 
+{
+    /* height: 200px;    */
+    object-fit: contain;
+    position: relative;
+}
+   
+.card-img2 .effect1
+{
+    height: 250px;
+    width: 250px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 288px;
+    background: rgba(0, 0, 0, 0.79);
+    opacity: 0;
+    transition: .5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+   
+.card-img2:hover .effect1
+{
+    opacity: 1;
+}
+   
+.card3 .card-info2   
+{
+    width: 80%;
+    margin: 10px 20px;
+}
+   
+.card-info2 h5
+{
+    color: gray;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: lighter;
+}
+   
+.card-info2 h3
+{
+    font-size: 23px;
+    text-transform: capitalize;
+    font-weight: light;
+    margin-top: 8px;
+}
+   
+.card-info2 p
+{
+    color: gray;
+    width: 110%;
+    margin-top: 10px ;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+   
+.card-info2 span a
+{
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+   
+span:hover a
+{
+    color: black;
+}
+/* Card 3 end */
+
+/* Card 4 Start */
+.content .card4
+{
+    height: 600px;
+    width: 250px;
+    background-color: white ;
+    margin: -180px 20px;
+    box-shadow: 0px 0px 0.5px black;
+}
+   
+.card-img3
+{
+    /* height: 200px;    */
+    object-fit: contain;
+    position: relative;
+}
+   
+.card-img3 .effect2
+{
+    height: 250px;
+    width: 250px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 288px;
+    background: rgba(0, 0, 0, 0.79);
+    opacity: 0;
+    transition: .5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+   
+.card-img3:hover .effect2
+{
+    opacity: 1;
+}
+   
+.card4 .card-info3  
+{
+    width: 80%;
+    margin: 10px 20px;
+}
+   
+.card-info3 h5
+{
+    color: gray;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: lighter;
+}
+   
+.card-info3 h3
+{
+    font-size: 23px;
+    text-transform: capitalize;
+    font-weight: light;
+    margin-top: 8px;
+}
+   
+.card-info3 p
+{
+    color: gray;
+    width: 110%;
+    margin-top: 10px ;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+   
+.card-info3 span a
+{
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+   
+span:hover a
+{
+    color: black;
+}
+/* Card 4 end */
+
+/* Card 5 Start */
+.content .card5
+{
+    height: 300px;
+    width: 250px;
+    background-color: white ;
+    margin: -180px 20px;
+    box-shadow: 0px 0px 0.5px black;
+}
+
+.card-img4 img
+{
+    height: 30px;
+    margin-top: 20px;
+    object-fit: contain;
+    position: relative;
+}
+
+
+.card5 .card-info4
+{
+    width: 70%;
+    margin: 20px 50px;
+    /* font-size: 18px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-info4 h3
+{
+   font-size: 20px;
+   text-transform: capitalize;
+   font-weight: light;
+   margin-top: 8px;
+}
+
+.card-info4 p
+{
+    color: gray;
+    width: 110%;
+    margin-top: 10px ;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+.card-info4 a
+{
+    text-decoration: none;
+}
+/* Card 5 end */
+
+/* Card 6 Start */
+.content .card6
+{
+    height: 600px;
+    width: 250px;
+    background-color: white ;
+    margin: -480px 310px;
+    box-shadow: 0px 0px 0.5px black;
+}
+   
+.card-img5
+{
+    /* height: 200px;    */
+    object-fit: contain;
+    position: relative;
+}
+   
+.card-img5 .effect2
+{
+    height: 250px;
+    width: 250px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 288px;
+    background: rgba(0, 0, 0, 0.79);
+    opacity: 0;
+    transition: .5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+   
+.card-img5:hover .effect2
+{
+    opacity: 1;
+}
+   
+.card6 .card-info5 
+{
+    width: 80%;
+    margin: 10px 20px;
+}
+   
+.card-info5 h5
+{
+    color: gray;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: lighter;
+}
+   
+.card-info5 h3
+{
+    font-size: 23px;
+    text-transform: capitalize;
+    font-weight: light;
+    margin-top: 8px;
+}
+   
+.card-info5 p
+{
+    color: gray;
+    width: 110%;
+    margin-top: 10px ;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+   
+.card-info5 span a
+{
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+   
+span:hover a
+{
+    color: black;
+}
+/* Card 6 end */
+
+/* Content end */
+
+/* Content1 Start */
+.content2
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 200px 0px;   
+    justify-content: center;
+    /* margin-right: -200px; */
+}
+
+.arrow1
+{
+    margin-right: 20px;
+    margin-top: -15px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 0px 0px 1px black;
+}
+
+.arrow1:hover
+{
+    background-color: black;
+    color: white;
+}
+
+.content2 .no1 
+{
+   margin-right: 10px;  
+   margin-top: -10px; 
+   font-weight: bold;
+   height: 30px;
+   width: 25px;
+   border-radius: 3px;
+   background-color: transparent;
+   text-align: center;
+   line-height: 30px;
+}
+
+.no1:hover
+{
+    background: rgba(0, 0, 0, 0.19);
+}
+
+.content2 .no2 
+{
+   margin-right: 10px;  
+   margin-top: -10px; 
+   font-weight: bold;
+   height: 30px;
+   width: 25px;
+   border-radius: 3px;
+   color: white;
+   background-color: black;
+   text-align: center;
+   line-height: 30px;
+}
+
+.arrow2
+{
+    margin-right: 20px;
+    margin-top: -15px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 0px 0px 1px black;
+}
+
+.arrow2:hover
+{
+    background-color: black;
+    color: white;
+}
+/* main-content end */
+
+.main-content2
+{
+  height: 400px;
+  width: 100%;
+  background-color: white;
+}
+
+.content3
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: yellowgreen; */
+    padding: 40px;
+}
+
+.posts
+{
+    height: 500px;
+    width: 900px;
+    /* background-color: red; */
+    /* margin-right: 20px; */
+}
+
+.post-h
+{
+   padding: 10px 110px;
+   font-size: 18px;
+}
+
+.post-flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.post1
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0px;  
+}
+
+.post-img
+{
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.post-info
+{
+    width: 55%;
+}
+
+.post-info h3
+{
+    font-size: 16px;
+}
+
+.post-info h3:hover
+{
+    color: cadetblue;
+}
+
+.post-info p
+{
+    color: gray;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.wiki
+{
+    height: 500px;
+    width: 500px;
+    /* background-color: blueviolet; */
+}
+
+.txt
+{
+    width: 75%;
+    padding: 10px 50px;    
+}
+
+.txt h3 
+{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.txt p
+{
+    color: grey;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+
+.txt span a
+{
+    color: black;
+    font-size: 20px;
+    margin-right: 5px;
+}
+/* Main Content2 End */
+
+/* Footer Start */
+.footer
+{
+    height: 400px;
+    width: 100%;
+    background-color:rgb(23, 22, 22);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+.footer1
+{
+    height: 300px;
+    width: 700px;
+    /* background-color: aqua; */
+    margin: 0px 20px;
+}
+
+.footer1-txt
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   padding: 20px 20px;
+}
+
+.link
+{
+ margin-right: 100px;
+}
+
+.link h3
+{
+    color: white;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
+
+.link a
+{
+    color: gray;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 15px;
+}
+
+.archive
+{
+ margin-right: 100px;
+}
+
+.archive h3
+{
+    color: white;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
+
+.archive p
+{
+    color: gray;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 18px;
+}
+
+.social
+{
+ margin-right: 100px;
+}
+
+.social h3
+{
+    color: white;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
+
+.social p
+{
+    color: gray;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 18px;
+}
+
+.copyrit
+{
+    display: flex;
+    flex-wrap: wrap;
+    color: gray;
+    margin: 20px 65px;
+}
+
+.copyrit .line-2
+{
+    height: 12px;
+    width: 1px;
+    background-color: gray;
+    margin: 4px 10px;
+}
+
+.copyrit a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.footer2
+{
+    height: 300px;
+    width: 400px;
+    /* background-color: blueviolet; */
+}
+
+.footer2-txt
+{
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.footer2-txt h3
+{
+    color: white;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+}
+
+.footer2-txt p
+{
+    color: gray;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+
+.x
+{
+    height: 40px;
+    /* width: 150px; */
+    background-color: rgba(0, 0, 0, 0.62);
+}
+
+.x span
+{
+    color: white;
+    margin-left: 10px;
+}
+
+input
+{
+    border: none;
+   background-color: transparent;
+   margin-left: 10px;
+}
+
+.y input
+{
+    height: 40px;
+    width: 50px;
+    background-color: rgb(54, 54, 255);
+    color: white;
+    margin-left: -10px;
+    font-size: 12px;
+}
