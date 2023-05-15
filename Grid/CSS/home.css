@@ -352,10 +352,87 @@ input
     opacity: 1;
 }
 
+/* Content1 End  */
 
+/* Section start  */
+.section
+{
+    height: 650px;
+    background: rgb(15, 19, 19);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px 0px;
+}
 
+.section-info
+{
+    height: 500px;
+    /* width: 50%; */
+    /* background-color: yellow; */
+}
 
+.sec-txt
+{
+    /* width:100%; */
+    padding: 100px 200px;
+}
 
+.section-img
+{
+    height: 500px;
+    /* width: 50%; */
+    /* background-color: blueviolet; */
+    
+}
+/* Section end  */
+
+/* <!-- Banner Start -->  */
+.banner
+{
+    position: relative;
+}
+
+.banner-info
+{
+    width: 25%;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+/* <!-- Banner end -->  */
+
+/* Section2 Start  */
+.section2
+{
+    height: 650px;
+    background: rgb(15, 19, 19);
+    margin-top: -10px;
+    padding: 100px 0px;
+}
+
+.sec-line
+{
+    height: 1px;
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgb(134, 130, 130);
+}
+
+.sec-card-grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px 430px;
+}
+
+.section-card
+{
+    height: 400px;
+    width: 300px;
+    background-color: orangered;
+    margin-right: 20px;
+    
+}
 
 
 
