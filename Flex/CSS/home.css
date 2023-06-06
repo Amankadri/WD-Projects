@@ -240,6 +240,7 @@ a:hover
 .img1 .text h1
 {
     color: white;
+    font-size: 32    px;
     text-transform: capitalize;
     margin-top: 20px;
 }
@@ -373,7 +374,7 @@ h4:hover
     
 }
 
-.effect-img1:hover  
+.img2:hover  .effect-img1
 {
    opacity: 1;
 }
@@ -453,7 +454,7 @@ h4:hover
      
 }
 
-.effect-img2:hover
+.img3:hover  .effect-img2
 {
    opacity: 1;
 }

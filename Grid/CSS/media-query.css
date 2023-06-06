@@ -21,3 +21,11 @@
 
     
 }
+
+@media (min-width: 1400px) {
+    .container {
+        /* max-width: 1320px; */    
+        max-width: min(1920px, 100vw);
+        margin: 0px auto;
+    }
+}

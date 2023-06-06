@@ -10,7 +10,7 @@
     height: 100vh;
     background-attachment: fixed;   
     /* background-color: red; */
-    background: url(/Images/header-img1.jpg);  
+    background: url(/Grid/Images/header-img1.jpg);  
     background-size: contain;
     background-repeat: no-repeat;
     animation: test 5s  linear infinite;
@@ -136,21 +136,24 @@
     /* height: 100px;   
     background-color: crimson; */
     display: grid;
-    grid-template-columns: 80fr 20fr;
+    grid-template-columns: 10fr 10fr;
     padding-top: 10px; 
+    margin-left: 600px;
 }
 
 .search span
 {
     color: white;
     text-align: center;
+    /* width: 10%; */
+    font-size: 20px;
+    
 }
 
 .bars
 {
-    height: 30px;
-    width: 100px;
-    background-color: white;
+  font-size: 30px;
+  color: white;
 }
 
 .header-content
@@ -357,7 +360,7 @@ input
 /* Section start  */
 .section
 {
-    height: 650px;
+    /* height: 650px; */
     background: rgb(15, 19, 19);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -366,7 +369,7 @@ input
 
 .section-info
 {
-    height: 500px;
+    /* height: 500px; */
     /* width: 50%; */
     /* background-color: yellow; */
 }
@@ -379,7 +382,7 @@ input
 
 .section-img
 {
-    height: 500px;
+    /* height: 500px; */
     /* width: 50%; */
     /* background-color: blueviolet; */
     
@@ -390,6 +393,7 @@ input
 .banner
 {
     position: relative;
+    background: rgb(15, 19, 19);
 }
 
 .banner-info
@@ -404,7 +408,7 @@ input
 /* Section2 Start  */
 .section2
 {
-    height: 650px;
+    /* height: 750px; */
     background: rgb(15, 19, 19);
     margin-top: -10px;
     padding: 100px 0px;
@@ -432,6 +436,109 @@ input
     background-color: orangered;
     margin-right: 20px;
     
+}
+
+.numbers
+{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    /* justify-content: space-evenly; */
+}
+
+.num1
+{
+    margin-right: 80px;
+}
+
+.numbers h1
+{
+    font-size: 80px;
+    color: white;
+    position: relative;
+}
+
+.numbers span
+{
+    font-size: 40px;
+     /* margin: -40px 0px; */
+     position: absolute;
+     bottom: 32%;
+     /* left: 0; */
+}
+
+.numbers p
+{
+    font-size: 20px;
+    color: rgb(151, 145, 145);
+}
+
+
+.info1
+{
+    padding: 90px 0px;
+    /* height: 400px; */
+    background: rgb(15, 19, 19);
+    border-bottom: 1px solid rgb(134, 130, 130) ;
+
+}
+
+.cont-text1
+{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px auto;
+    padding-top: 80px;
+}
+
+.cont-heading1 h1
+{
+    color: rgb(230, 196, 109);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+}
+
+.cont-heading1 span
+{
+    color: rgb(183, 180, 180) ;
+    font-family: 'Roboto', sans-serif;
+    /* margin-bottom: 30px; */
+    font-size: 20px;
+    font-weight: 700;
+    width: 10%;
+}
+
+
+.cont-heading1 p
+{
+    color: rgb(244, 206, 111);
+    font-size: 16px;
+    /* margin-left: -220px; */
+    margin-top: 5px;
+}
+
+.contact1
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact1 h3
+{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.contact1 a
+{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 40px;
 }
 
 
