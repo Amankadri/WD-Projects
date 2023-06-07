@@ -25,7 +25,7 @@
 
 .submenu
 {
-    height: 100px;
+    /* height: 100px; */
     /* background-color: aqua;  */
     display: grid;
     grid-template-columns: 50fr 50fr ;
@@ -539,6 +539,11 @@ input
     font-size: 18px;
     text-decoration: none;
     line-height: 40px;
+}
+
+.contact1 a:hover
+{
+    color: rgb(151, 145, 145);
 }
 
 

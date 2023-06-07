@@ -1,0 +1,133 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@media (min-width: 1400px) {
+    .container {
+        /* max-width: 1320px; */    
+        max-width: min(1320px, 100vw);
+        margin: 0px auto;
+    }
+}
+
+body
+{
+    background: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading
+{
+    display: flex;
+    justify-content: space-between   ;
+    /* width: 80%; */
+    padding: 10px 0px;
+   
+}
+
+.name
+{
+    /* margin-right: 100px; */
+}
+
+h1
+{
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+}
+
+.nav ul li
+{
+    display: inline;
+    margin-right: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+   
+}
+
+.nav a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.section1
+{
+    margin: 60px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec-info
+{
+    margin: 60px 0px;
+}
+
+.sec-txt h1
+{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sec-txt span
+{
+    color: rgb(249, 206, 96);
+}
+
+.about
+{
+    width: 60%;
+    margin: 120px auto;
+}
+
+.txt p
+{
+    margin-bottom: 10px;
+}
+
+.projects
+{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin: 50px 0px;
+}
+
+.pro-img
+{
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+
+.effect
+{
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(20, 20, 20, 0.92);
+    opacity: 0;
+    padding: 100px 0px;
+    transition: .8s;
+}
+
+.effect h1
+{
+    text-align: center;
+    
+}
+
+.pro-img:hover .effect
+{
+    opacity: 1;
+}

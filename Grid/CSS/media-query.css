@@ -17,6 +17,13 @@
     .contact{margin-left: 100px; grid-template-columns: 1fr 1fr ;}
     .contact-p{margin-right: -20px;}
     .card-grid{grid-template-columns: 1fr;}
+    .section{grid-template-columns: 1fr;}
+    .section-img{margin: 0px 80px;}
+    .sec-card-grid{grid-template-columns: 1fr; margin: 0px -320px;}
+    .banner-info{display: none;}
+    .cont-text1{grid-template-columns: 1fr;}
+    .cont-para1{margin: 30px -40px;}
+    .copyrit p{display: none;}
     
 
     
@@ -29,3 +36,4 @@
         margin: 0px auto;
     }
 }
+
