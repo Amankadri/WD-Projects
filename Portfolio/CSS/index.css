@@ -24,9 +24,15 @@ body
 .heading
 {
     display: flex;
-    justify-content: space-between   ;
-    /* width: 80%; */
+    justify-content: space-between;
+    /* background: gray; */
+    width: 100%;
     padding: 10px 0px;
+    transition: 1s;
+   z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
    
 }
 
@@ -61,7 +67,7 @@ h1
 
 .section1
 {
-    margin: 60px 0px;
+    margin: 180px 0px;
     display: flex;
     justify-content: space-around;
 }
@@ -130,4 +136,46 @@ h1
 .pro-img:hover .effect
 {
     opacity: 1;
+}
+
+.contact1
+{
+  display: flex;
+  justify-content: center;
+}
+
+.num
+{
+  margin: 30px 70px;
+}
+
+.num-img
+{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(46, 46, 46);
+    color: rgb(249, 206, 96);
+    font-size: 24px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    margin: 30px 30px;
+}
+
+.num h1
+{
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.num a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.num p
+{
+   margin: 0px 10px;
 }

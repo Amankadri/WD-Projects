@@ -10,17 +10,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body onscroll="scrollEvent()">
     <section>
         <div class="container">
             <div class="header" id="home">
-                <div class="heading">
-                    <div class="name">
+                <div class="heading" id="head">
+                    <div class="name" id="nam">
                         <h1>Portfolio</h1>
                     </div>
-                    <div class="nav" style=" padding: 10px 0px;">
+                    <div class="nav" style=" padding: 10px 0px;" id="navbar">
                         <ul>
                             <li><a href="#home">Home</a></li>
                             <li><a href="#about">About</a></li>
@@ -95,23 +96,75 @@
 
     <section>
         <div class="container">
-            <div class="contact" id="contact"></div>
+            <h1 style="text-align: center; margin-top: 190px;">Contact Me</h1>
+            <div class="contact" id="contact" style="margin: 40px 0px;">
+                <div class="contact1">
+                    <div class="num">
+                        <div class="num-img">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h1>CONTACT NUMBER</h1>
+                       <a href=""><p>+91 6355046818</p></a>
+                    </div>
+
+                    <div class="num">
+                        <div class="num-img">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h1 style="margin: 10px 10px;">EMAIL ADDRESS</h1>
+                       <a href="https://mail.google.com/mail/u/0/?pli=1#inbox"><p>kadriaman2@gmail.com</p></a>
+                    </div>
+
+                    <div class="num">
+                        <div class="num-img">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <h1 style="margin: 10px 40px;">LINKEDIN</h1>
+                       <a href="https://www.linkedin.com/in/aman-kadri-a6921a1ba/"><p style="margin: 0px 35px;">Aman Kadri</p></a>
+                    </div>
+
+                    <div class="num">
+                        <div class="num-img">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <h1 style="margin: 10px 40px;">TWITTER</h1>
+                       <a href="https://twitter.com/AmanKadri9"><p style="margin: 0px 35px;">AmanKadri9</p></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <script>
-        nav_div= document.getElementsByClassName('nav');
+       heading_div = document.getElementById('head');
+       name_div = document.getElementById('nam');
+        nav_div = document.getElementById('navbar');
 
         function scrollEvent()
       {
-        if(document.documentElement.scrollTop >300)
+        if(document.documentElement.scrollTop >200)
         {
-            nav_div.style.top = "-100px";
+            // name_div.style.padding = "10px 0";
+            //  name_div.style.fontSize = "16px";
+
+            nav_div.style.padding = "15px 0";
+            // nav_div.style.fontSize = "16px";
+
+            heading_div.style.top = "-10px";
+            heading_div.style.backgroundColor = "gray";
         }
         
         else
         {
-            nav_div.style.top = "0px";
+            // name_div.style.padding = "5px 5px";
+            //  name_div.style.fontSize = "35px";
+
+            // nav_div.style.padding = "5px 5px";
+            // nav_div.style.fontSize = "35px";
+
+
+            heading_div.style.top = "0px";
+            heading_div.style.backgroundColor = "black"
         }
       }  
     </script>
